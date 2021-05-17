@@ -1,4 +1,4 @@
-Package: reprod-bes
+Package: reprod-bes-1
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -13,3 +13,5 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/hongyuanjia/reprod-bes-1
+BugReports: https://github.com/hongyuanjia/reprod-bes-1/issues
