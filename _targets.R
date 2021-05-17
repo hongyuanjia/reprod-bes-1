@@ -1,4 +1,5 @@
 library(targets)
+library(tarchetypes)
 
 # load packages
 library(tidyverse)
@@ -22,5 +23,6 @@ list(
         idf$run(path_epw)
     }),
     tar_target(tbl_end_use, job %>% read_end_use()),
-    tar_target(p_end_use, tbl_end_use %>% plot_end_use())
+    tar_target(p_end_use, tbl_end_use %>% plot_end_use()),
+    tar_render(paper, "analysis/paper/paper.Rmd", output_format = "all")
 )
