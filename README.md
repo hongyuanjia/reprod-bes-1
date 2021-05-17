@@ -18,6 +18,15 @@ Please cite this repository as:
 }
 ```
 
+## How to access
+
+There are several options:
+
+1. Open the [RStudio Cloud](https://rstudio.cloud/project/2559267) instance
+2. Pull the docker image from [here](hub.docker.com/XXXXX)
+3. Clone the repo and then run `renv::restore()`
+
+
 ## File structure
 
 The main files are:
