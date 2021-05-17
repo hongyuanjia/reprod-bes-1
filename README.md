@@ -1,25 +1,49 @@
+# A test
 
-# reprod-bes
+More details can be found in [our paper]():
 
-<!-- badges: start -->
-<!-- badges: end -->
+> Hongyuan Jia, (2021).
+> *A test*.
+> *In Review*. <https://doi.org/xxx/xxx>
 
-The goal of reprod-bes is to ...
+## Citation
 
-## Installation
-
-You can install the released version of reprod-bes from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("reprod-bes")
+Please cite this repository as:
+```
+@article{jia2021test,
+  title={A test},
+  author={Jia, Hongyuan},
+  year={2021},
+  note={In Review}
+}
 ```
 
-## Example
+## File structure
 
-This is a basic example which shows you how to solve a common problem:
+The main files are:
 
-``` r
-library(reprod-bes)
-## basic example code
+```
+.
++-- analysis  # paper
+|   \-- paper
++-- data      # simulation data
+|   \-- sim
++-- data-raw  # raw input of the simulation
+|   +-- RefBldgMediumOfficeNew2004_Chicago.idf
+|   \-- USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw
++-- DESCRIPTION # metadata of the projec
++-- LICENSE     # License
++-- LICENSE.md  # License
++-- R           # Scripts that contains functions used in the project
+|   \-- functions.R
++-- renv.lock   # packages used in this project
+\-- _targets.R  # workflow powered by targets pipeline
 ```
 
+## Licenses
+
+**Code**: [MIT](https://github.com/ideas-lab-nus/reproducing-building-simulation/blob/main/LICENSE) license
+
+**Data**: [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse
+
+**Text and figures**: [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
